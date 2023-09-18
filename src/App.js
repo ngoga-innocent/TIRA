@@ -8,19 +8,31 @@ import GetApp from "./components/LandingComponet/GetApp";
 import FAQ from "./components/LandingComponet/FAQ";
 import Apply from "./components/LandingComponet/Apply";
 import Footer from "./components/Footer";
+import GetToKnow from "./components/AboutComponents/GetToKnow";
+import { OurMission } from "./components/AboutComponents/ourMission";
+import { Choose } from "./components/AboutComponents/Choose";
+import { Loan } from "./components/AboutComponents/Loan";
+import { KeyFeature } from "./components/AboutComponents/KeyFeature";
+import { Partners } from "./components/AboutComponents/Partners";
 function App() {
   return (
     <div className="App px-2">
       <Navbar />
       <div className="items-center justify-center">
-        <HeroHeader />
+        {/* <HeroHeader />
         <GetStarted />
         <UnderGetStarted />
         <HowWork />
         <GetApp />
         <FAQ />
         <Apply />
-        <Footer />
+        <Footer /> */}
+        <GetToKnow />
+        <OurMission />
+        <Choose />
+        <Loan />
+        <KeyFeature />
+        <Partners />
       </div>
     </div>
   );

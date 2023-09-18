@@ -9,7 +9,9 @@ module.exports = {
         orange: "#FF6501",
         white: "#FFFFFF",
         black:"#0F0D15",
-        gradient1:"#9DB2BF"
+        gradient1:"#9DB2BF",
+        msg:"#DCF7C5",
+        chatbg:"#DDEBFE"
       },
     },
   },
